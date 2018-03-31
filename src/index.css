@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+div.map{
+  width: 100%;
+  height:70vh;
+  min-height: 300px;
+}
+#modalContentBusTimeTable{
+  width: 100%;
+  min-height: 810px;
+}
+.custom-modal{
+  width: 800px;
+}

@@ -1,0 +1,284 @@
+{
+  "routes": [
+    {
+      "value": "0A",
+      "routeid": "21169",
+      "routenum": "0A"
+    },
+    {
+      "value": "0B",
+      "routeid": "21170",
+      "routenum": "0B"
+    },
+    {
+      "value": "1",
+      "routeid": "21167",
+      "routenum": "1"
+    },
+    {
+      "value": "2",
+      "routeid": "21185",
+      "routenum": "2"
+    },
+    {
+      "value": "3",
+      "routeid": "21150",
+      "routenum": "3"
+    },
+    {
+      "value": "4",
+      "routeid": "21172",
+      "routenum": "4"
+    },
+    {
+      "value": "5",
+      "routeid": "21146",
+      "routenum": "5"
+    },
+    {
+      "value": "6",
+      "routeid": "21177",
+      "routenum": "6"
+    },
+    {
+      "value": "7",
+      "routeid": "21142",
+      "routenum": "7"
+    },
+    {
+      "value": "8",
+      "routeid": "21187",
+      "routenum": "8"
+    },
+    {
+      "value": "9",
+      "routeid": "21134",
+      "routenum": "9"
+    },
+    {
+      "value": "10",
+      "routeid": "21152",
+      "routenum": "10"
+    },
+    {
+      "value": "11",
+      "routeid": "21147",
+      "routenum": "11"
+    },
+    {
+      "value": "12",
+      "routeid": "21143",
+      "routenum": "12"
+    },
+    {
+      "value": "13",
+      "routeid": "21145",
+      "routenum": "13"
+    },
+    {
+      "value": "15",
+      "routeid": "21178",
+      "routenum": "15"
+    },
+    {
+      "value": "16",
+      "routeid": "21149",
+      "routenum": "16"
+    },
+    {
+      "value": "17",
+      "routeid": "21179",
+      "routenum": "17"
+    },
+    {
+      "value": "18",
+      "routeid": "21135",
+      "routenum": "18"
+    },
+    {
+      "value": "19",
+      "routeid": "21137",
+      "routenum": "19"
+    },
+    {
+      "value": "20",
+      "routeid": "21186",
+      "routenum": "20"
+    },
+    {
+      "value": "21",
+      "routeid": "21159",
+      "routenum": "21"
+    },
+    {
+      "value": "22",
+      "routeid": "21155",
+      "routenum": "22"
+    },
+    {
+      "value": "23",
+      "routeid": "21168",
+      "routenum": "23"
+    },
+    {
+      "value": "24",
+      "routeid": "21158",
+      "routenum": "24"
+    },
+    {
+      "value": "25",
+      "routeid": "21140",
+      "routenum": "25"
+    },
+    {
+      "value": "26",
+      "routeid": "21173",
+      "routenum": "26"
+    },
+    {
+      "value": "27",
+      "routeid": "21157",
+      "routenum": "27"
+    },
+    {
+      "value": "28",
+      "routeid": "21151",
+      "routenum": "28"
+    },
+    {
+      "value": "29",
+      "routeid": "21180",
+      "routenum": "29"
+    },
+    {
+      "value": "30",
+      "routeid": "21154",
+      "routenum": "30"
+    },
+    {
+      "value": "31",
+      "routeid": "21188",
+      "routenum": "31"
+    },
+    {
+      "value": "32",
+      "routeid": "21163",
+      "routenum": "32"
+    },
+    {
+      "value": "33",
+      "routeid": "21144",
+      "routenum": "33"
+    },
+    {
+      "value": "34",
+      "routeid": "21139",
+      "routenum": "34"
+    },
+    {
+      "value": "35",
+      "routeid": "21148",
+      "routenum": "35"
+    },
+    {
+      "value": "36",
+      "routeid": "21138",
+      "routenum": "36"
+    },
+    {
+      "value": "37",
+      "routeid": "21189",
+      "routenum": "37"
+    },
+    {
+      "value": "38",
+      "routeid": "21136",
+      "routenum": "38"
+    },
+    {
+      "value": "39",
+      "routeid": "21182",
+      "routenum": "39"
+    },
+    {
+      "value": "40",
+      "routeid": "21171",
+      "routenum": "40"
+    },
+    {
+      "value": "41",
+      "routeid": "21162",
+      "routenum": "41"
+    },
+    {
+      "value": "42",
+      "routeid": "21160",
+      "routenum": "42"
+    },
+    {
+      "value": "43",
+      "routeid": "21183",
+      "routenum": "43"
+    },
+    {
+      "value": "44",
+      "routeid": "21190",
+      "routenum": "44"
+    },
+    {
+      "value": "46",
+      "routeid": "21141",
+      "routenum": "46"
+    },
+    {
+      "value": "47",
+      "routeid": "21175",
+      "routenum": "47"
+    },
+    {
+      "value": "48",
+      "routeid": "21181",
+      "routenum": "48"
+    },
+    {
+      "value": "49",
+      "routeid": "21161",
+      "routenum": "49"
+    },
+    {
+      "value": "51",
+      "routeid": "21153",
+      "routenum": "51"
+    },
+    {
+      "value": "52",
+      "routeid": "21174",
+      "routenum": "52"
+    },
+    {
+      "value": "54",
+      "routeid": "21156",
+      "routenum": "54"
+    },
+    {
+      "value": "59",
+      "routeid": "21184",
+      "routenum": "59"
+    },
+    {
+      "value": "N1",
+      "routeid": "21165",
+      "routenum": "N1"
+    },
+    {
+      "value": "N2",
+      "routeid": "21166",
+      "routenum": "N2"
+    },
+    {
+      "value": "N3",
+      "routeid": "21164",
+      "routenum": "N3"
+    }
+  ]
+}
