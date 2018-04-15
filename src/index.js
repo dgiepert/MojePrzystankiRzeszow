@@ -5,7 +5,5 @@ import App from './App';
 import Start from './start/Start';
 import registerServiceWorker from './registerServiceWorker';
 
-//var myfirstElement = React.createElement("h1",{className : "test"},"Hello world!");
-
-ReactDOM.render(/*myfirstElement*//*<App/>*/<Start/>, document.getElementById('root'));
+ReactDOM.render(<Start/>, document.getElementById('root'));
 registerServiceWorker();

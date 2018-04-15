@@ -30,28 +30,12 @@ class BusstopDetails extends Component {
   }
 
   handleShow() {
-
-    /*let axiosConfig = {
-      headers: {
-          "Access-Control-Allow-Origin": "*",
-      }
-    };*/
-    //https://github.com/chrisveness/geodesy/blob/master/latlon-spherical.js
-
     var that = this;
     var x = data1.GetBusStopRouteList.filter(function(record) { return record.busstopid == that.constNameMatch; })[0];
-    //alert(x.data.id);
-    /*axios.get(`http://einfo.erzeszow.pl/Home/GetBusStopTimeTable?busStopId=${this.props.match.params.busstopId}&routeId=${x.data.metadata.busroutes[0].routeId}&ttId=0)`)//, axiosConfig)
-      .then(res => {
-        alert(res.data);
-      });*/
-        //alert(res.data);
-        //const data = res.data.data.children.map(obj => obj.data);
-        this.setState({ src : 'http://einfo.erzeszow.pl/Home/TimeTableReal?busStopId=' + this.props.match.params.busstopId });
-        this.setState({ height: 300 });
-        this.setState({ width: 300 });
-        this.setState({ show: true });
-      //});
+    this.setState({ src : 'http://einfo.erzeszow.pl/Home/TimeTableReal?busStopId=' + this.props.match.params.busstopId });
+    this.setState({ height: 300 });
+    this.setState({ width: 300 });
+    this.setState({ show: true });
   }
   componentDidMount() {
     var mapElement = this.mapElement;
@@ -77,8 +61,6 @@ class BusstopDetails extends Component {
     this.mapElement = mapElementReference;
   }
   render() {
-    //var constNameMatch = this.props.match.params.busstopId;
-    //var filteredData = data.busstops.filter(function(record) { return record.BusStopId == constNameMatch; });
     return (
       <Jumbotron>
         <Panel>

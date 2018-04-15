@@ -7,12 +7,18 @@ class StreetBusstop extends Component {
   constructor(props) {
     super(props);
   }
+  componentDidMount() {
+    //this.constNameMatch = this.props.match.params.street;
+  }
+  componentWillMount() {
+    this.constNameMatch = this.props.match.params.street;
+  }
+
   render() {
-    var constNameMatch = this.props.match.params.street;
     return (
       <Switch>
-        <Route exact path={'/streets/' + constNameMatch} component={()=><StreetBusstopLines streetName={constNameMatch}/>} />
-        <Route path={'/streets/' + constNameMatch + '/:busstopid'} component={StreetBusstopLine}/>
+        <Route exact path={'/streets/' + this.constNameMatch} component={()=><StreetBusstopLines streetName={ this.constNameMatch }/>} />
+        <Route path={'/streets/' + this.constNameMatch + '/:busstopid'} component={StreetBusstopLine}/>
       </Switch>
     );
   }

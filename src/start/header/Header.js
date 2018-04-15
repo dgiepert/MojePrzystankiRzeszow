@@ -13,7 +13,7 @@ class Header extends Component {
                 <NavItem eventKey={1} href="/">
                     <NavLink to="/">Główna</NavLink>
                 </NavItem>
-                <NavItem eventKey={1} href="/buslines">
+                <NavItem eventKey={1} href="/routes">
                     <NavLink to="/routes">Linie</NavLink>
                 </NavItem>
                 <NavItem eventKey={2} href="/busstops">

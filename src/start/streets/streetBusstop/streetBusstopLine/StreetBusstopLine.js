@@ -7,18 +7,26 @@ class StreetBusstopLine extends Component {
   constructor(props) {
     super(props);
   }
-  render() {
+  componentWillMount() {
     var constNameMatch = this.props.match.params.busstopid;
-    var filteredData = data.GetBusStopRouteList.filter(function(record) { return record.busstopid == constNameMatch; });
+    var fd =  data.GetBusStopRouteList.filter(function(record) { return record.busstopid == constNameMatch; });
+    this.setState({ filteredData : fd[0] });
+  }
+  /*componentDidMount() {
+    var constNameMatch = this.props.match.params.busstopid;
+    var fd =  data.GetBusStopRouteList.filter(function(record) { return record.busstopid == constNameMatch; });
+    this.setState({ filteredData : fd[0] });
+  }*/
+  render() {
+    
     return (
       <Jumbotron>
       <Panel>
-        <Panel.Heading>Przystanek autobusowy {filteredData[0].data.name} - linie</Panel.Heading>  
+        <Panel.Heading>Przystanek autobusowy {this.state.filteredData.data.name} - linie</Panel.Heading>  
         <Panel.Body>
         <ListGroup>
           {
-            filteredData[0].data.metadata.busroutes.map(function(busroute){
-            //return <ListGroupItem><NavLink to={ "/streets/" + constNameMatch + "/"+busroute.routeId }>{"linia " + busroute.routeName}</NavLink></ListGroupItem>;
+            this.state.filteredData.data.metadata.busroutes.map(function(busroute){
             return <ListGroupItem><NavLink to={ "/routes/" + busroute.routeId }>{"linia " + busroute.routeName}</NavLink></ListGroupItem>;
             })
           }
